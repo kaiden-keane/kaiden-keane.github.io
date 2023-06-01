@@ -1,0 +1,19 @@
+.navbar {
+    font-size: 1rem;
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    display: flex;
+    padding: 0 10px;
+    color:aquamarine;
+    
+}
+
+.navbar_item {
+    padding: 0 10px;
+}
+
+#title {
+    font-size: 2rem;
+    color: #2f399e;
+}
