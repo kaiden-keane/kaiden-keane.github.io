@@ -2,26 +2,36 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #303030;
     color: #efefef;
 }
 
-li, a {
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-}
+nav {
+    /* idk if I will keep this */
+    /* background-color: #037207; */
+    background-image: linear-gradient(#037207, rgba(3, 114, 7, 0.9));
 
-header {
     position: sticky;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 20px;
+    padding: 5px 10px;
+    top: 0;
+}
+
+#title {
+    font-size: 3rem;
+}
+
+#title span {
+    background-image: linear-gradient(to top right, #037207, #7ecd80);
+    background-clip: text;
+    color: transparent;
+    
 }
 
 .nav__menu {
     list-style: none;
+    
 }
 
 .nav__menu li {
@@ -29,8 +39,19 @@ header {
     padding: 0px 8px;
 }
 
-.nav__menu li a {
-    transition: all 0.2s ease 0s;
+.nav__menu a, .nav__menu p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav__menu p {
+    color: #000000;
+    
+}
+
+.nav__menu li a{
+    transition: all 0.3s ease 0s;
 }
 
 .nav__menu li a:hover {
