@@ -1,2 +1,2 @@
 # personal website
-website: [ttps://kaiden-keane.github.io/](ttps://kaiden-keane.github.io/)
+website: [https://kaiden-keane.github.io/](https://kaiden-keane.github.io/)
