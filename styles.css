@@ -1,19 +1,38 @@
-.navbar {
-    font-size: 1rem;
-    align-items: center;
-    justify-content: right;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+    color: #efefef;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
     position: sticky;
     display: flex;
-    padding: 0 10px;
-    color:aquamarine;
-    
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 20px;
 }
 
-.navbar_item {
-    padding: 0 10px;
+.nav__menu {
+    list-style: none;
 }
 
-#title {
-    font-size: 2rem;
-    color: #2f399e;
+.nav__menu li {
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.nav__menu li a {
+    transition: all 0.2s ease 0s;
+}
+
+.nav__menu li a:hover {
+    color: #c0c0c0;
 }
