@@ -1,2 +1,2 @@
 # personal website
-website: [https://kaiden-keane.github.io/](https://kaiden-keane.github.io/){:target="_blank"}
+website: <a href="https://kaiden-keane.github.io/" target="_blank">https://kaiden-keane.github.io/</a>
